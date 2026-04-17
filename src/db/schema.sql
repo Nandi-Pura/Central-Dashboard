@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS metrics_history (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  timestamp TEXT NOT NULL,
+  ap_up INTEGER NOT NULL,
+  ap_down INTEGER NOT NULL,
+  clients INTEGER NOT NULL,
+  switch_up INTEGER NOT NULL,
+  switch_down INTEGER NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS alerts_log (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  message TEXT NOT NULL,
+  severity TEXT NOT NULL,
+  timestamp TEXT NOT NULL
+);
