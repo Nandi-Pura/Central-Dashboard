@@ -1,0 +1,10 @@
+**/node_modules
+**/.next
+**/dist
+**/build
+influxdb_data
+redis_data
+.git
+.env
+*.log
+docker-compose.yml
