@@ -254,3 +254,7 @@ docker exec central-dashboard-redis-1 redis-cli del aruba_access_token
 docker exec central-dashboard-redis-1 redis-cli set aruba_force_refresh "true"
 ```
 The Worker detects this boolean flag within 5 minutes, triggers a 19-endpoint data pull, pushes it to the UI, and automatically resets the flag to `"false"`.
+
+
+
+https://expert-bassoon-rw96rw7v4xwfw574-3000.app.github.dev/
